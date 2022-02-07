@@ -1,0 +1,3 @@
+care_file: Timely_and_Effective_Care-Hospital.csv
+hospital_file: Hospital_General_Information.csv
+db_file: caredata7.db
