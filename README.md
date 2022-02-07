@@ -14,3 +14,6 @@
   - datasync.py: class definition to work with sqlite 
   - test_dbsync.py: unit test for DBSync class.  Test not finished yet as unittest doesn't run in Anaconda environment that I setup on my Windows machine for some reason. Run out of time to fix them
   - caredata.db: sqlite db file output from running data_process
+- To-do
+  - Finish and add more unit tests
+  - ZIP Code is int64 from the original data source, but it is not inserted correctly in the sqlite table even after calling to_numeric()
